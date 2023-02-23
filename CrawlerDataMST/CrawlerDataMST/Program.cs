@@ -6,6 +6,8 @@ using HtmlAgilityPack;
 using Newtonsoft.Json;
 using RestSharp;
 
+Console.WriteLine("Hello, World!");
+
 const string Base_Url = "https://masothue.com";
 const string User_Agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:107.0) Gecko/20100101 Firefox/107.0";
 RestClient CreateRequest()
